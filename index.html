@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
     <title>Puppy Lovers</title>
   </head>
+  <body>
   <header>
-    <center><h1>Everyone Loves Puppies!</h1></center>
+    <h1>Everyone Loves Puppies!</h1>
   </header>
-    <body background="lightblue.jpg" alt="skys">
-  <div id="images">
-    <center>
+  <div class="images">
       <img src="Toto.png" alt="puppies" style="width:200px;height:200px;">
       <img src="Peanut.png" alt="puppies" style="width:200px;height:200px;">
       <img src="Java.png" alt="puppies" style="width:200px;height:200px;">
       <img src="Eclipse.png" alt="puppies" style="width:200px;height:200px;">
-    </center>
   </div>
+<br>
+<div id="sideleft">
+  <h4>Links</h4>
+  <a href="https://www.home.com">Home</a><br>
+  <a href="https://www.puppies.com">Puppies</a><br>
+  <a href="https://www.events.com">Events</a><br>
+  <a href="https://www.contactus.com">Contact Us</a><br>
+</div>
   <div id="Introduction">
-    <h1>Welcome!</h2>
+    <h2>Welcome!</h2>
       <p>I'm introducing to you all the showcase puppies that we are proud to call our own!</p>
        <ul>
          <li>They are the most loyal</li>
          <li>They are fun-loving</li>
          <li>They are very sweet</li>
-      <p>These were the three characteristics I can sum up for these pups. Quite of few people have asked me what type of characteristics these puppies tend to have and I would need your help since I'm pretty biased.</p>
-      <p>Below I have set up a short survey for you to fill out that will help people understand more about puppies.</p>
+       </ul>
+         <p>Below I have set up a short survey for you to fill out that will help people understand more about puppies.</p>
+    </div>
+    <br>
   <div id="Forms">
-    <form class="" action="form_submit.html" method="post">
+    <form class="survey" action="form_submit.html" method="post">
       <fieldset>
-        <h1>Short Survey</h1>
+        <h2>Short Survey</h2>
         <div>
-          <lable>Full Name</label>
+          <label>Full Name</label>
           <input type="text" name="fullname">
         </div>
         <div>
@@ -38,7 +47,7 @@
           <input type="number" name="phonenumber">
         </div>
         <div>
-          <lable>Types of Puppies</label>
+          <label>Types of Puppies</label>
           <select name="Puppies">
             <option value="Puppies">Siberian Husky</option>
             <option value="Puppies">Cairn Terrier</option>
@@ -47,31 +56,26 @@
           </select>
         </div>
         <div>
-          <lable>Which type is your favorite and why?</label><br>
+          <label>Which type is your favorite and why?</label><br>
             <textarea rows="10" cols="40"></textarea>
         </div>
         <div>
-          <lable>Give us any suggestions you would like to hear more about.</label><br>
+          <label>Give us any suggestions you would like to hear more about.</label><br>
             <textarea rows="10" cols="40"></textarea>
         </div>
         <button>Submit</button>
-    </form>
-  </div>
-  <div>
-    <a href="https://www.home.com">Home</a>
-    <a href="https://www.puppies.com">Puppies</a>
-    <a href="https://www.events.com">Events</a>
-    <a href="https://www.contactus.com">Contact Us</a>
-  </div>
+  </fieldset>
+</form>
+</div>
   <br>
-  <div>
+  <br>
+    <footer>
     <a href="http://www.warl.org/adopt/how-to-adopt/take-the-dog-survey/">Similar Webpage</a>
     <!--I couldn't find anything close to what my website was tyring to create since I wasn't being creative and my goal seemed to be nonexisting.
     The link above I thought was the closest to my webpage since I was trying to create a blog essentially to tell me more about their dogs if they have the types I've given on the option.
     I defintely recognize the basic HTML that all html start with.  there are a lot more elements use that I'm not sure what they do and it looks like it's a combination of css, html, and javascript.
     I see a few script elements and I belive they may be changing the code to use javascript? Not 100% sure.
     I think I was able to get to create a simple survey for users to input.  The webpage definitely was able to gear towards more specific responses. The website has more details than I and it seems a bit confusing since I dont recognize what more than half of it means.-->
-<p></p>
-
+    </footer>
   </body>
 </html>
